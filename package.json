@@ -1,7 +1,7 @@
 {
   "name": "chrome-extension-daum-en-ko-dictionary",
   "version": "0.0.1",
-  "description": "KO-EN dictionary",
+  "description": "chrome extension: daum en-ko dictionary",
   "main": "index.js",
   "author": "yceffort",
   "license": "MIT"
