@@ -3,6 +3,8 @@
 document.ondblclick = function (e) {
   const selectedMessage = window.getSelection().toString();
 
+  if (!selectedMessage.trim()) return;
+
   chrome.runtime.sendMessage({ word: selectedMessage }, async function (
     response
   ) {
