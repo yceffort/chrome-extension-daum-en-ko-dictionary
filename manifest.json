@@ -4,20 +4,15 @@
   "version": "0.0.1",
   "description": "심심풀이로 만들어본 다음 영한사전입니다.",
   "short_name": "Short Name",
-  "permissions": [
-    "activeTab",
-    "declarativeContent",
-    "tabs",
-    "storage",
-    "<all_urls>"
-  ],
+  "permissions": ["<all_urls>"],
   "background": {
     "scripts": ["background.js"]
   },
   "content_scripts": [
     {
       "matches": ["<all_urls>"],
-      "js": ["content_script.js"]
+      "js": ["content_script.js"],
+      "css": ["content_script.css"]
     }
   ],
   "browser_action": {
