@@ -12,6 +12,7 @@
   padding: 0 !important;
   list-style: none !important;
   margin-bottom: 3px !important;
+  color: black;
 }
 ._daum_dict ul li::before {
   content: counter(steps);
