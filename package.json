@@ -1,6 +1,6 @@
 {
   "name": "chrome-extension-daum-en-ko-dictionary",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "chrome extension: daum en-ko dictionary",
   "main": "index.js",
   "author": "yceffort",

@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "다음 영한사전",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "심심풀이로 만들어본 다음 영한사전입니다.",
   "short_name": "Short Name",
   "permissions": ["<all_urls>"],
