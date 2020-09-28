@@ -13,7 +13,7 @@ document.ondblclick = function (e) {
 
       const ul = document.createElement("ul");
 
-      response.body.reverse().forEach((word) => {
+      response.body.forEach((word) => {
         const li = document.createElement("li");
         li.textContent = word;
         ul.appendChild(li);
