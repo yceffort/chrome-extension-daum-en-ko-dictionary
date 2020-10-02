@@ -27,7 +27,9 @@ document.ondblclick = function (e) {
 
       const targetRect = e.target.getBoundingClientRect();
 
-      div.style.top = `${e.clientY + window.scrollY + e.target.style.height}px`;
+      div.style.top = `${
+        parseInt(e.clientY + window.scrollY + e.target.style.height) + 15
+      }px`;
       div.style.left = `${e.clientX}px`;
 
       div.onmouseleave = function (e) {
