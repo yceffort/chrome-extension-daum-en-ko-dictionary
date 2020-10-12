@@ -38,6 +38,11 @@ document.ondblclick = function (e) {
 
       div.appendChild(ul);
       document.body.appendChild(div);
+
+      // 일정 시간 경과시 삭제
+      setTimeout(() => {
+        div.parentNode.removeChild(div);
+      }, 5 * 1000);
     }
   });
 };
